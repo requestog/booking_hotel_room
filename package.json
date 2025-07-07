@@ -1,12 +1,13 @@
 {
   "name": "booking_hotel_room",
   "version": "1.0.0",
+  "type": "module",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --fix ."
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "requestog",
@@ -16,7 +17,8 @@
     "chalk": "^5.4.1",
     "dotenv": "^14.3.2",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
     "prettier": "^3.6.2"
